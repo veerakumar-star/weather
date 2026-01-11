@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Transcity', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #011221, #2aa3a9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 350px;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(195, 155, 155, 0.15);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: #fff;
+}
+
+.app h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 12px;
+  margin-left: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #463beb;
+  color: #333;
+
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+ 
+}
+
+button:hover {
+  background: #5504ea;
+  color: #ffffff;
+}
+
+.error {
+  margin-top: 10px;
+  color: #ffdddd;
+  background: rgba(255, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 80px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 6px 0;
+}
